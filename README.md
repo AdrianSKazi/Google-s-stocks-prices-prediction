@@ -1,5 +1,40 @@
 # Google-s-stocks-prices-prediction
 
+### Table of contents:
+1. Importing libraries
+2. Importing dataset
+3. Handling categorical data
+4. Handling missing values
+5. Traing test split
+6. Multivariate Linear Regression modeling
+  - Training
+  - Testing
+7. Improving dataset
+  - Effective Federal Funds Rate
+  - Data adjustment due to Corona Virus crisis
+8. Renewed Multivariate Regression modeling
+  - Cleaning
+  - Splitting the dataset
+  - Training
+  - Testing
+9. Price predictions table for year 2020 and 2021
+  - Creating 2020 and 2021 whole years Data Frame
+  - Adding EFFR column
+    - Preparing whole_year dataset for modeling
+    - Preparing EFFR dataset for data modeling
+      - Creating 'fake rate' DataFrame
+      - Reindexing and cleaning
+    - Extracting proper data rows
+  - Predictions dataset
+  - Final multivariate linear regression modeling
+    - Fitting to lm_renewed model
+  - Whole dataset
+10. Data visualization
+  - To datetime
+  - Final plot
+<hr>
+
+
 ### Datasets:
 * GOOGL.csv
 * EffectiveFederalFundsRate.csv
